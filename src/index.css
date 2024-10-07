@@ -1,13 +1,175 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  background: #282a36;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Create-Student{
+  margin-top: 50px;
+  text-align: start;
+  padding: 50px 5%;
+  background: #44475a;
+  border-radius: 20px;
+}
+.Create-Student form{
+  background: #44475a;
+}
+.Create-Student h2{
+  color: #bd93f9;
+  background: #44475a;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.Create-Student form label{
+  color: #ff79c6;
+  background: #44475a;
+  font-size: 16px;
+  font-weight: 600;
+}
+.Create-Student form input{
+  margin: 10px 0;
+  border: 2px solid #6272a4;
+  padding: 10px 20px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.Create-Student form button{
+  background: #A259FF;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+table, th, td {
+  border: 1px solid #f1fa8c;
+  padding: 10px;
+}
+
+th, td {
+  text-align: left;
+
+}
+th{
+  color: #ffb86c;
+}
+td{
+  color: #50fa7b;
+}
+.Navbar{
+  display: flex;
+  padding: 10px 5%;
+  justify-content: space-between;
+  border-bottom: 1px solid #6272a4;
+  background: #44475a;
+}
+.Navbar h1{
+  color: blueviolet;
+  background: #44475a;
+}
+.Navbar .Links{
+  display: flex;
+}
+.Navbar .Links .one{
+  /* margin-left: 20px; */
+  color: #ff79c6;
+  text-decoration: none;
+  font-size: 18px;
+  background: #44475a;
+  padding-right: 10px;
+}
+.Navbar .Links .one:hover{
+  color: blueviolet;
+}
+
+.Student-List{
+  margin-top: 50px;
+}
+.Student-List h2{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff79c6;
+  padding: 20px 5%;
+}
+.container{
+  padding: 0 5%;
+}
+.blue{
+  color: #ff79c6;
+}
+.blues{
+  border: 0;
+  outline: 0;
+  background: blueviolet;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+.student-details{
+  margin-top: 100px;
+}
+.student-details article h2{
+  /* background: #44475a; */
+  margin-bottom: 20px;
+  color: #50fa7b;
+}
+.student-details article p{
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #ffb86c;
+}
+
+.edit-student{
+  margin-top: 50px;
+  text-align: start;
+  padding: 50px 5%;
+  background: #44475a;
+  border-radius: 20px;
+}
+.edit-student form{
+  background: #44475a;
+}
+.edit-student h2{
+  color: #bd93f9;
+  background: #44475a;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.edit-student form label{
+  color: #ff79c6;
+  background: #44475a;
+  font-size: 16px;
+  font-weight: 600;
+}
+.edit-student form input{
+  margin: 10px 0;
+  border: 2px solid #6272a4;
+  padding: 10px 20px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.edit-student form button{
+  background: #A259FF;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 600;
 }
